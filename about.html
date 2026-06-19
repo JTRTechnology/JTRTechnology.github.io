@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – JTRTechnology</title>
+  <meta name="description" content="About JTRTechnology — honest tech recommendations from an IT professional." />
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    a { color: #60a5fa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    nav {
+      background: #0f1117;
+      border-bottom: 1px solid #1e2235;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-logo {
+      font-size: 17px;
+      font-weight: 600;
+      color: #e2e8f0;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-logo span { color: #60a5fa; }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+    }
+
+    .nav-links a {
+      font-size: 14px;
+      color: #94a3b8;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: #e2e8f0; text-decoration: none; }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 4rem 2rem 5rem;
+    }
+
+    .page-tag {
+      font-size: 11px;
+      font-weight: 600;
+      color: #60a5fa;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #f1f5f9;
+      margin-bottom: 2rem;
+    }
+
+    .content-block {
+      background: #161b27;
+      border: 1px solid #2d3148;
+      border-radius: 12px;
+      padding: 1.75rem 2rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .content-block h2 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #e2e8f0;
+      margin-bottom: 0.75rem;
+    }
+
+    .content-block p {
+      font-size: 14px;
+      color: #94a3b8;
+      line-height: 1.8;
+    }
+
+    .content-block p + p {
+      margin-top: 0.75rem;
+    }
+
+    .highlight {
+      border-left: 3px solid #3b5998;
+      border-radius: 0;
+    }
+
+    .interest-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      margin-top: 1rem;
+    }
+
+    .interest-item {
+      background: #0f1117;
+      border: 1px solid #2d3148;
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+      font-size: 13px;
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .interest-item span {
+      font-size: 16px;
+    }
+
+    .contact-link {
+      display: inline-block;
+      margin-top: 0.75rem;
+      font-size: 14px;
+      color: #60a5fa;
+      background: #1e3a5f;
+      padding: 8px 18px;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+
+    .contact-link:hover {
+      background: #24487a;
+      text-decoration: none;
+    }
+
+    footer {
+      border-top: 1px solid #1e2235;
+      padding: 2rem;
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-left p {
+      font-size: 12px;
+      color: #475569;
+      line-height: 1.6;
+    }
+
+    .footer-left .copyright { margin-bottom: 6px; color: #64748b; }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-shrink: 0;
+    }
+
+    .footer-links a {
+      font-size: 12px;
+      color: #475569;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: #94a3b8; text-decoration: none; }
+
+    @media (max-width: 560px) {
+      .nav-links { gap: 16px; }
+      h1 { font-size: 22px; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo"><a href="index.html" style="color: inherit;">JTR<span>Technology</span></a></div>
+    <div class="nav-links">
+      <a href="index.html">Recommendations</a>
+      <a href="index.html">Reviews</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-tag">About</div>
+    <h1>Hey, welcome to JTRTechnology</h1>
+
+    <div class="content-block highlight">
+      <h2>Who's behind this site?</h2>
+      <p>I'm an IT professional based in the Austin, TX area who spends way too much time researching tech — and decided to make that habit useful for other people. JTRTechnology is where I share honest recommendations on the gear and tools I actually use and believe in.</p>
+      <p>No fluff, no filler. Just straightforward takes from someone who works in tech every day.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>What I'm into</h2>
+      <p>My interests cover a pretty wide range of tech, which means so do my recommendations:</p>
+      <div class="interest-grid">
+        <div class="interest-item"><span>🖨️</span> 3D printing</div>
+        <div class="interest-item"><span>🌐</span> Home lab & networking</div>
+        <div class="interest-item"><span>🖥️</span> PC building & hardware</div>
+        <div class="interest-item"><span>🏠</span> Smart home & IoT</div>
+        <div class="interest-item"><span>📱</span> Mobile & gadgets</div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <h2>Why trust my recommendations?</h2>
+      <p>I buy and use the things I write about. I'm not regurgitating spec sheets or Amazon listings — I'm sharing what's actually worked for me and what hasn't. When something isn't worth your money, I'll say so.</p>
+      <p>I also have a day job in IT, so I have a decent eye for separating marketing hype from real-world performance.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Get in touch</h2>
+      <p>Got a question, a product you'd like me to look at, or just want to talk tech? I'm always happy to hear from readers.</p>
+      <a href="mailto:hello@jtrtechnology.io" class="contact-link">hello@jtrtechnology.io</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      <p class="copyright">© 2025 JTRTechnology</p>
+      <p>This site may earn a commission from qualifying purchases made through links on this page.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="disclosure.html">Affiliate disclosure</a>
+    </div>
+  </footer>
+
+</body>
+</html>
